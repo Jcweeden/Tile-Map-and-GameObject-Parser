@@ -12,4 +12,5 @@
    <CoinLevel02 spritesheetName="silverCoin" spritesheetLocation="///Users/Joshua/Documents/GameDev/Emacs/SDLGameDevelopment/LevelEditor/assets/silverCoin.png" tileSizeX="32" tileSizeY="32" spritesheetNumColumns="8" type="CoinLevel01" x="256" y="704" width="32" height="32" textureID="silverCoin" />
    <CoinLevel03 spritesheetName="silverCoin" spritesheetLocation="///Users/Joshua/Documents/GameDev/Emacs/SDLGameDevelopment/LevelEditor/assets/silverCoin.png" tileSizeX="32" tileSizeY="32" spritesheetNumColumns="8" type="CoinLevel01" x="416" y="64" width="32" height="32" textureID="silverCoin" />
    <CoinLevel04 spritesheetName="silverCoin" spritesheetLocation="///Users/Joshua/Documents/GameDev/Emacs/SDLGameDevelopment/LevelEditor/assets/silverCoin.png" tileSizeX="32" tileSizeY="32" spritesheetNumColumns="8" type="CoinLevel01" x="672" y="384" width="32" height="32" textureID="silverCoin" />
+
 </GAMEOBJECTS>

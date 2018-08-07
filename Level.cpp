@@ -1,4 +1,5 @@
 #include "Level.h"
+#include "InputHandler.h"
 
 Level::Level()
 {
@@ -21,6 +22,10 @@ void Level::setupLevel(std::string tileMapDataFile, std::string gameObjectsDataF
   if (gameObjectsDataFile != "")
     //pass in the gameObjects vector, where all gameObjects will be stored
     tmp.parseGameObjectData(gameObjectsDataFile, &gameObjects);
+
+  //uncomment to set to the camera to follow the mouse cursor
+  //TheCamera::Instance()->setTarget(TheInputHandler::Instance()->getMousePosition());
+  //TheCamera::Instance()->setPosition(TheInputHandler::Instance()->getMousePosition());
 }
 
 void Level::update()

@@ -12,7 +12,7 @@ COMPILER_FLAGS = -w
 LINKER_FLAGS = -lSDL2 -lSDL2_image -lSDL2_mixer -ltinyxml
 
 #OBJ_NAME specifies the name of our exectuable
-OBJ_NAME = GamesFramework
+OBJ_NAME = TileMapParser
 
 #This is the target that compiles our executable
 all : $(OBJS)

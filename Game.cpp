@@ -72,17 +72,17 @@ bool Game::init(const char* title, int xpos, int ypos, int width, int height, bo
 
    level = new Level();
    
-  level->setupLevel(
-      "///Users/Joshua/Documents/GameDev/Emacs/SDLGameDevelopment/LevelEditor/data/level01Tiles.xml",
-      "///Users/Joshua/Documents/GameDev/Emacs/SDLGameDevelopment/LevelEditor/data/level01GameObjects.xml"             );
+   level->setupLevel(
+       "///Users/Joshua/Documents/GameDev/Emacs/Tile-Map-and-GameObject-Parser/data/level01Tiles.xml",
+       "///Users/Joshua/Documents/GameDev/Emacs/Tile-Map-and-GameObject-Parser/data/level01GameObjects.xml");
    
    return true;
 }
 
 //put textures in memory
- void Game::loadTextures() {
-   //TheRenderManager::Instance()->load("assets/animate-alpha.png", "animate",m_pRenderer);
- }
+void Game::loadTextures() {
+
+}
 
 void Game::render()
 {
